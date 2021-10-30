@@ -1,0 +1,42 @@
+body {
+    padding-top: 30px;
+    font-family: Raleway;
+}
+header {
+    line-height: 18px;
+}
+.Body {
+    padding-left: 80px;
+}
+.dev {   
+    font-size: 40px;
+}
+.myName {
+    font-size: 28px;
+}
+.Aboutme h strong {
+    font-size: 24px;
+}
+.Aboutme {
+    width: 30%;
+    text-align: justify;
+    font-size: larger;
+}
+.SkillSet h strong {
+    font-size: 24px;
+}
+.SkillSet {
+    font-size: larger;
+}
+.SkillSet ol{
+    padding-left: 30px;
+}
+footer {
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    height:100px; 
+}
+footer p strong {
+    font-size: 20px;
+}
