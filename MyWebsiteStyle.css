@@ -3,19 +3,19 @@ body {
     font-family: Raleway;
 }
 header {
-    line-height: 18px;
+    line-height: 12px;
 }
 .Body {
     padding-left: 80px;
 }
 .dev {   
-    font-size: 40px;
-}
-.myName {
     font-size: 28px;
 }
+.myName {
+    font-size: 22px;
+}
 .Aboutme h strong {
-    font-size: 24px;
+    font-size: 22px;
 }
 .Aboutme {
     width: 30%;
@@ -23,13 +23,13 @@ header {
     font-size: larger;
 }
 .SkillSet h strong {
-    font-size: 24px;
+    font-size: 22px;
 }
 .SkillSet {
     font-size: larger;
 }
 .SkillSet ol{
-    padding-left: 30px;
+    padding-left: 20px;
 }
 footer {
     bottom:0;
