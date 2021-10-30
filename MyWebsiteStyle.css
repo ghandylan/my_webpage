@@ -1,39 +1,35 @@
-body {
-    padding-top: 30px;
+* {
     font-family: Raleway;
-}
-header {
-    line-height: 12px;
-}
-.Body {
-    padding-left: 80px;
-}
-.dev {   
-    font-size: 28px;
-}
-.myName {
-    font-size: 22px;
-}
-.Aboutme h strong {
-    font-size: 22px;
-}
-.Aboutme {
-    width: 30%;
-    text-align: justify;
-    font-size: larger;
+    line-height: 20px;
 }
 
-.SkillSet h strong{
-    font-size: 22px;
+body {
+    padding-left: 12px;
+    padding-top: 10px;
 }
-.SkillSet ol{
-    padding-left: 20px;
+
+header {
+    padding-bottom: 3px;
 }
-footer {
-    bottom:0;
-    width: 100%;
-    height:100px; 
+
+.About.Me {
+    padding-bottom: 3px;
 }
-footer p strong {
-    font-size: 20px;
+
+.About.Me p{
+    text-align: justify;
+    width: 33%;
 }
+
+.My.Skillset {
+    padding-bottom: 3px;
+}
+
+.skills.list {
+    padding-left: 30px;
+    padding-bottom: 3px;
+    list-style: disc;
+}
+
+
+
