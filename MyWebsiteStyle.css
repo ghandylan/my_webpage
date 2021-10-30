@@ -22,11 +22,9 @@ header {
     text-align: justify;
     font-size: larger;
 }
-.SkillSet h strong {
+
+.SkillSet h strong{
     font-size: 22px;
-}
-.SkillSet {
-    font-size: larger;
 }
 .SkillSet ol{
     padding-left: 20px;
