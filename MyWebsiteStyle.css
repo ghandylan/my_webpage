@@ -1,11 +1,14 @@
 * {
     font-family: Raleway;
-    line-height: 20px;
 }
 
 body {
     padding-left: 12px;
     padding-top: 10px;
+}
+
+.background {
+    background-color: antiquewhite;
 }
 
 header {
@@ -17,12 +20,21 @@ header {
 }
 
 .About.Me p{
-    text-align: justify;
-    width: 33%;
+    text-align: left;
+    width: 20%;
+}
+
+table {
+    width: 10%;
+}
+
+.head {
+    text-align: left;
 }
 
 .My.Skillset {
     padding-bottom: 3px;
+
 }
 
 .skills.list {
@@ -30,6 +42,7 @@ header {
     padding-bottom: 3px;
     list-style: disc;
 }
+
 
 
 
