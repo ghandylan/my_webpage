@@ -29,7 +29,7 @@ table {
 }
 
 .head {
-    text-align: left;
+    text-align: center;
 }
 
 .My.Skillset {
@@ -37,11 +37,13 @@ table {
 
 }
 
-.skills.list {
-    padding-left: 30px;
-    padding-bottom: 3px;
-    list-style: disc;
+
+
+a {
+    color: black;
 }
+
+
 
 
 
