@@ -1,50 +1,25 @@
 * {
     font-family: Raleway;
+    text-align: center;
+    image-rendering: -webkit-optimize-contrast;
 }
 
-body {
-    padding-left: 12px;
-    padding-top: 10px;
+.aboutme {
+    text-align: center;
+    line-height: 30px;
+
 }
 
-.background {
-    background-color: antiquewhite;
+.center {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-header {
-    padding-bottom: 3px;
-}
-
-.About.Me {
-    padding-bottom: 3px;
-}
-
-.About.Me p{
-    text-align: left;
-    width: 35%;
-}
 
 table {
-    width: 10%;
-}
-
-.head {
     text-align: center;
+    width: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.My.Skillset {
-    padding-bottom: 3px;
-
-}
-
-
-
-a {
-    color: black;
-}
-
-
-
-
-
-
