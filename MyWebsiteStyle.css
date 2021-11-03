@@ -16,10 +16,17 @@
     margin-right: auto;
 }
 
-
 table {
     text-align: center;
     width: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: forestgreen;
 }
