@@ -7,9 +7,12 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>  
+
+        <div id="preloader"></div>
         <header>
             <h1>DYLAN LOUIS TAYAG</h1>
             <p>I am a <strong>software developer</strong></p>
@@ -31,22 +34,39 @@
             <tr>
                 <td><img src="images\python.png"  width="30" height="30"></td> 
                 <td>Python</td> 
-                <td>★★☆☆☆</td>            
+                <td><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </td>            
             </tr>
             <tr>
                 <td><img src="images\html.png"  width="36" height="36"></td>
                 <td>HTML</td>
-                <td>★★★☆☆</td>
+                <td><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span></td>
             </tr>
             <tr>
                 <td><img src="images\css.png"  width="32" height="32"></td>
                 <td>CSS</td>
-                <td>★☆☆☆☆</td>
+                <td><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span></td>
             </tr>
             <tr>
                 <td><img src="images\c-logo.png"  width="30" height="32"></td>
                 <td>C++</td>
-                <td>★★☆☆☆</td>
+                <td><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span></td>
             </tr>
         </table>
 
@@ -58,5 +78,12 @@
             <a href="https://www.linkedin.com/in/dylantayag" target="www.linkedin.com/in/dylantayag">LinkedIn</a> |
             <a href="https://github.com/ghandylan" target="https://github.com/ghandylan">Github</a> 
         </section> 
+
+        <script>
+            var loader = document.getElementById("preloader")
+            window.addEventListener("load", function() {
+                loader.style.display = "none";
+            })
+        </script>
     </body> 
 </html>
