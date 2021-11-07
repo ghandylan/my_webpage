@@ -10,6 +10,10 @@ strong {
     color: #fddb27ff; 
 }
 
+.inline {
+    color: white
+}
+
 .checked {
     color: orange;
 }
